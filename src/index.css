@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body #root{
+    @apply bg-blue-950 flex flex-col justify-center items-center w-screen h-screen font-inter;
+}
